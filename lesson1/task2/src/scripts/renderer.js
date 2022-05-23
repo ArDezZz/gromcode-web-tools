@@ -36,15 +36,6 @@ export const createListItem = ({ text, done, id }) => {
 };
 
 export const renderTasks = tasksList => {
-  // const tasksList = getItem("tasksList") || [];
-  // listElem.innerHTML = "";
-  // const tasksElems = tasksList.sort(compareTasks).map(createListItem);
-  // listElem.append(...tasksElems);
-
-  // getTasksList()
-  //   .then((tasksList) => tasksList.sort(compareTasks).map(createListItem))
-  //   .then((newList) => listElem.append(...newList));
-
   const sortedTasksList = tasksList.sort(compareTasks).map(createListItem);
 
   listElem.append(...sortedTasksList);
