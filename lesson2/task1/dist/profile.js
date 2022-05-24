@@ -3,5 +3,5 @@ const printProfile = function (profileData) {
     name,
     company
   } = profileData;
-  console.log(`${name} from ${company}`);
+  console.log("".concat(name, " from ").concat(company));
 };
