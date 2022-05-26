@@ -7,7 +7,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "webpack -p",
-    "watch": "webpack -d --devtools eval-sourse-maps -w"
+    "start": "webpack-dev-server -d --devtools eval-source-maps --open"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +29,8 @@
     "style-loader": "^2.0.0",
     "url-loader": "^3.0.0",
     "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
     "core-js": "^3.22.5"
