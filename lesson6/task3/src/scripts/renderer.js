@@ -1,5 +1,6 @@
-const listElem = document.querySelector('.list');
 import './list.scss';
+
+const listElem = document.querySelector('.list');
 
 const compareTasks = (first, second) => {
   return first.done - second.done;
