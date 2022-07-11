@@ -7,3 +7,4 @@ it('should be a sum', () => {
 it('should be a mult', () => {
   expect(30).toEqual(mult(5, 6));
 });
+//something
